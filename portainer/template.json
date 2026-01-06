@@ -1,0 +1,16 @@
+{
+  "version": "3",
+  "templates": [
+    {
+      "id": 1,
+      "type": 1,
+      "title": "OLM4DEV Env",
+      "description": "Docker image registry",
+      "categories": ["docker"],
+      "platform": "linux",
+      "logo": "https://olmunkaido.hu/wp-content/themes/olmunkaido/favicon.ico",
+      "image": "olm5/olm4dev:1.0.0",
+      "ports": ["22/tcp", "80/tcp", "443/tcp"]
+    }
+  ]
+}  
